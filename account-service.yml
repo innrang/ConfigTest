@@ -1,9 +1,11 @@
-greeting:"안녕하세요"
+spring:
+  profiles: 
+    greeting: "안녕하세요"
 ---
 spring:
-  profiles:local
-    greeting:"로컬서버에 오신걸 환영합니다."
+  profiles: local
+    greeting: "로컬서버에 오신걸 환영합니다."
 ---
 spring:
-  profiles:dev
-    greeting:"개발서버에 오신걸 환영합니다."
+  profiles: dev
+    greeting: "개발서버에 오신걸 환영합니다."
