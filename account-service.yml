@@ -1,4 +1,5 @@
 spring.profiles.active: test
+common.data: "모두사용"
 greeting: "안녕하세요"
 
 ---
