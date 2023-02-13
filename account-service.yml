@@ -1,0 +1,15 @@
+spring.profiles.active: test
+common.data: "모두사용"
+greeting: "안녕하세요"
+
+---
+spring.config.activate.on-profile: local
+greeting: "로컬서버에 오신걸 환영합니다."
+
+---
+spring.config.activate.on-profile: dev
+greeting: "개발서버에 오신걸 환영합니다."
+
+---
+spring.config.activate.on-profile: test
+greeting: "테스트서버에 오신걸 환영합니다."
